@@ -3,7 +3,6 @@ var textInput = document.querySelector("#text-input");
 var outputDiv  = document.querySelector("#output");
 
 var serverURL = "https://api.funtranslations.com/translate/yoda.json";
-alert("You can only translate 5 times in 1 hour")
 
 function getTranslationURL(text){
     return serverURL + "?" + "text=" + text;
